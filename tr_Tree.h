@@ -1,4 +1,4 @@
-  float mjj_JESDown,mjj_JESUp,jdeta_JESDown,jdeta_JESUp,metphi_JESDown,metphi_JESUp,met_JESDown,met_JESUp,metphi_UESDown,metphi_UESUp,met_UESDown,met_UESUp,genweight,genM,genpT,pt_top1,pt_top2;
+  float mjj_JESDown,mjj_JESUp,jdeta_JESDown,jdeta_JESUp,metphi_JESDown,metphi_JESUp,met_JESDown,met_JESUp,metphi_UESDown,metphi_UESUp,met_UESDown,met_UESUp,genweight,genM,genpT,pt_top1,pt_top2, genEta, genPhi;
   float m_sv_JESUp, m_sv_JESDown, m_sv_UESUp, m_sv_UESDown, pt_sv_JESUp, pt_sv_JESDown, pt_sv_UESUp, pt_sv_UESDown;
   //float met_UESUp, met_UESDown, met_JESUp, met_JESDown, metphi_JESUp, metphi_JESDown, metphi_UESDown, metphi_UESUp;
   float bpt_1, bpt_2, bflavor_1, bflavor_2, bphi_1, bphi_2, beta_1, beta_2;

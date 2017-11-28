@@ -1,21 +1,21 @@
 ./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/Data.root files_fakeES/Data.root data_obs data_obs 30
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY.root files_fakeES/ZTTall.root ZTT ZTT 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY.root files_fakeES/ZLall.root ZL ZL 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY.root files_fakeES/ZJall.root ZJ ZJ 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY1.root files_fakeES/ZTT1.root ZTT ZTT 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY1.root files_fakeES/ZL1.root ZL ZL 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY1.root files_fakeES/ZJ1.root ZJ ZJ 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY2.root files_fakeES/ZTT2.root ZTT ZTT 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY2.root files_fakeES/ZL2.root ZL ZL 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY2.root files_fakeES/ZJ2.root ZJ ZJ 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY3.root files_fakeES/ZTT3.root ZTT ZTT 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY3.root files_fakeES/ZL3.root ZL ZL 30
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY3.root files_fakeES/ZJ3.root ZJ ZJ 30
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY4.root files_fakeES/ZTT4.root ZTT ZTT 30
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY4.root files_fakeES/ZL4.root ZL ZL 30 
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY4.root files_fakeES/ZJ4.root ZJ ZJ 30
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY1low.root files_fakeES/DY1low.root DY1low ZTT 30
-./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_11august/DY2low.root files_fakeES/DY2low.root DY2low ZTT 30
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY.root files_fakeES/ZTTall.root ZTT ZTT 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY.root files_fakeES/ZLall.root ZL ZL 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY.root files_fakeES/ZJall.root ZJ ZJ 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY1.root files_fakeES/ZTT1.root ZTT ZTT 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY1.root files_fakeES/ZL1.root ZL ZL 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY1.root files_fakeES/ZJ1.root ZJ ZJ 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY2.root files_fakeES/ZTT2.root ZTT ZTT 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY2.root files_fakeES/ZL2.root ZL ZL 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY2.root files_fakeES/ZJ2.root ZJ ZJ 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY3.root files_fakeES/ZTT3.root ZTT ZTT 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY3.root files_fakeES/ZL3.root ZL ZL 30
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY3.root files_fakeES/ZJ3.root ZJ ZJ 30
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY4.root files_fakeES/ZTT4.root ZTT ZTT 30
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY4.root files_fakeES/ZL4.root ZL ZL 30 
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY4.root files_fakeES/ZJ4.root ZJ ZJ 30
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY1low.root files_fakeES/DY1low.root DY1low ZTT 30
+./FinalSelection2D_relaxed.exe /data/ccaillol/BBTT_et_15nov/DY2low.root files_fakeES/DY2low.root DY2low ZTT 30
 hadd -f files_fakeES/ZTT.root files_fakeES/ZTTall.root files_fakeES/ZTT1.root files_fakeES/ZTT2.root files_fakeES/ZTT3.root files_fakeES/ZTT4.root files_fakeES/DY1low.root files_fakeES/DY2low.root
 hadd -f files_fakeES/ZTT.root files_fakeES/ZTTall.root files_fakeES/ZTT1.root files_fakeES/ZTT2.root files_fakeES/ZTT3.root files_fakeES/ZTT4.root
 hadd -f files_fakeES/ZJ.root files_fakeES/ZJall.root files_fakeES/ZJ1.root files_fakeES/ZJ2.root files_fakeES/ZJ3.root files_fakeES/ZJ4.root
